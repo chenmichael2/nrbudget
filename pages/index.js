@@ -1,13 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Navbar from './navbar'
 import Link from 'next/link';
 
 export default function Home() {
   return (
     <div>
       <h1>Home Page</h1>
-      <Link>Login</Link>
+      <Link href="/">Login</Link>
     </div>
     // <div className={styles.container}>
       // {/* <Head>
