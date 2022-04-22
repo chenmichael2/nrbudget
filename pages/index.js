@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <h1>Home Page</h1>
-      <Link>Login</Link>
+      <Link><a>Login</a></Link>
     </div>
     // <div className={styles.container}>
       // {/* <Head>
