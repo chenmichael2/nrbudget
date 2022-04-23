@@ -6,6 +6,9 @@ function Navbar() {
             <div className="logo">
                 <div>hello</div>
             </div>
+            <div className="burger"></div>
+            <div className="burger"></div>
+            <div className="burger"></div>
             <ul>
                 <li>
                     <Link href="/login"><a>Login</a></Link>

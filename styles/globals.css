@@ -17,5 +17,8 @@ a {
 
 nav {
   display: flex;
+  justify-content: space-around;
   align-items: center;
+  min-height: 5vh;
+  background: blue;
 }
