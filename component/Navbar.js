@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <nav>
             <div className="logo">
-                <div>hello</div>
+                <Link href="/"><a>hello</a></Link>
             </div>
             <div className="burger"></div>
             <div className="burger"></div>

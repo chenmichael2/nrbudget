@@ -1,9 +1,17 @@
+:root {
+  --munsell: #068D9D;
+  --liberty: #53599A;
+  --frost: #6D9DC5;
+  --middle: #80DED9;
+  --blizzard: #AEECEF;
+}
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: var(--blizzard);
 }
 
 a {
