@@ -11,7 +11,7 @@ function Login() {
                 <label>Password: </label>
                 <input type="password"></input>
             </form>
-            <Link href="/"><a><h2>Go Home</h2></a></Link>
+            <Link href="/"><a><h1>Go Home</h1></a></Link>
         </div>
     )
 }
