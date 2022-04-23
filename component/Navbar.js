@@ -7,7 +7,7 @@ function Navbar() {
                 <div>hello</div>
             </div>
             <ul>
-                <li>Login</li>
+                <Link href="/login"><a><li>Login</li></a></Link>
             </ul>
         </nav>
     )
