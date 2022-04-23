@@ -7,7 +7,9 @@ function Navbar() {
                 <div>hello</div>
             </div>
             <ul>
-                <Link href="/login"><a><li>Login</li></a></Link>
+                <li>
+                    <Link href="/login"><a>Login</a></Link>
+                </li>
             </ul>
         </nav>
     )
