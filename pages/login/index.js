@@ -7,7 +7,9 @@ function Login() {
             <form>
                 <label>Username: </label>
                 <input type="text"></input>
-                <label></label>
+                <br />
+                <label>Password: </label>
+                <input type="password"></input>
             </form>
             <Link href="/"><a><h2>Go Home</h2></a></Link>
         </div>
