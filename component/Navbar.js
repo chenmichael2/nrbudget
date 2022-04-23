@@ -1,6 +1,9 @@
+
+
 function Navbar() {
     return (
-        <nav></nav>
+        <nav>
+        </nav>
     )
 }
 
