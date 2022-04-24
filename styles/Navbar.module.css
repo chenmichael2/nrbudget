@@ -16,8 +16,10 @@
     margin: 5px;
     transition: 100ms;
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
 }
 .brand:hover {
     height: 40px;
+    margin: 2px;
 }
