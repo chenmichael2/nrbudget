@@ -5,3 +5,7 @@
     min-height: 5vh;
     background: var(--sapphire);
 }
+
+.logo {
+    background: purple;
+}
