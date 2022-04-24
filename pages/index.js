@@ -12,7 +12,6 @@ export default function Home() {
       // {/* <Head>
       //   <title>Budget</title>
       //   <meta name="description" content="Budget" />
-      //   <link rel="icon" href="/favicon.ico" />
       // </Head> */}
 
     //   <main className={styles.main}>
