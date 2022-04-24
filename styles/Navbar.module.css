@@ -9,20 +9,27 @@
 
 .logo {
     max-height: 50px;
-    height: 35px;
+}
+
+.logoContainer {
     display: flex;
-    flex-direction: row;
-    
-    justify-content: left;
     align-items: center;
+    min-height: 5vh;
+    max-height: 50px;
 }
 
 .brand {
     height: 35px;
+    margin: 2px;
     transition: 100ms;
 }
 
-.brand:hover {
+.logoContainer:hover {
     height: 40px;
-    margin: 2px;
+}
+
+.brandName {
+    color: #C54848;
+    font-style: bold;
+    padding-left: 5px;
 }
