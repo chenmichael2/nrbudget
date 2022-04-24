@@ -21,7 +21,7 @@
 .brand {
     height: 35px;
     margin: 2px;
-    transition: 100ms;
+    transition: 300ms;
 }
 
 
@@ -29,7 +29,7 @@
     color: #C54848;
     font-size: 20px;
     padding-left: 5px;
-    transition: 10ms;
+    transition: 300ms;
 }
 
 
@@ -39,5 +39,5 @@
 
 .logoContainer:hover > .brandName {
     font-weight: 500;
-    font-size: 25px;
+    font-size: 22px;
 }
