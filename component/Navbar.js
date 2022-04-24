@@ -5,7 +5,9 @@ function Navbar() {
     return (
         <nav className={styles.navbar}>
             <div className={styles.logo}>
-                <Link href="/"><a>hello</a></Link>
+                <Link href="/">
+                    <a><img className={styles.brand} src="/icon-1.png" /></a>
+                </Link>
             </div>
             <div className="burger"></div>
             <div className="burger"></div>

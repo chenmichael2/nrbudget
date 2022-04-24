@@ -3,9 +3,21 @@
     justify-content: space-around;
     align-items: center;
     min-height: 5vh;
+    max-height: 64px;
     background: var(--sapphire);
 }
 
 .logo {
-    background: purple;
+    max-height: 50px;
+}
+
+.brand {
+    height: 35px;
+    margin: 5px;
+    transition: 100ms;
+    display: flex;
+    
+}
+.brand:hover {
+    height: 40px;
 }
