@@ -9,16 +9,19 @@
 
 .logo {
     max-height: 50px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: left;
+    align-items: center;
 }
 
 .brand {
     height: 35px;
-    margin: 5px;
     transition: 100ms;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
+
 .brand:hover {
     height: 40px;
     margin: 2px;
