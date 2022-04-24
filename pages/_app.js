@@ -7,7 +7,8 @@ function MyApp({ Component, pageProps }) {
   return ( 
     <Layout>
       <Head>
-        
+        <title>Budget</title>
+        <link rel="shortcut icon" href="../static/plugin-icon-1(1).ico" />
       </Head>
       <Component {...pageProps} />
     </Layout>
