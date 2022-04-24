@@ -3,8 +3,8 @@ import styles from "../styles/Navbar.module.css"
 
 function Navbar() {
     return (
-        <nav>
-            <div className="logo">
+        <nav className={styles.navbar}>
+            <div className={styles.logo}>
                 <Link href="/"><a>hello</a></Link>
             </div>
             <div className="burger"></div>

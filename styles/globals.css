@@ -21,11 +21,3 @@ a {
 * {
   box-sizing: border-box;
 }
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 5vh;
-  background: var(--sapphire);
-}
