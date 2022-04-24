@@ -2,7 +2,7 @@
   --royal: #03256C;
   --denim: #2541B2;
   --sapphire: #1768AC;
-  --off: #F0FCFF;
+  --off: #f5fafc;
 }
 html,
 body {
@@ -27,5 +27,5 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 5vh;
-  background: var(--blizzard);
+  background: var(--sapphire);
 }
