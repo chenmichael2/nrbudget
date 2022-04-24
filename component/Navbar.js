@@ -6,7 +6,7 @@ function Navbar() {
         <nav className={styles.navbar}>
             <div className={styles.logo}>
                 <Link href="/">
-                    <a className={styles.logoContainer}><img className={styles.brand} src="/icon-1.png" /><h1 className={styles.brandName}>Budget</h1></a>
+                    <a className={styles.logoContainer}><img className={styles.brand} src="/icon-1.png" /><div className={styles.brandName}>Budget</div></a>
                 </Link>
             </div>
             <div className="burger"></div>
