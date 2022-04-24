@@ -1,10 +1,14 @@
 import '../styles/globals.css'
 import Navbar from '../component/Navbar'
 import Layout from '../component/Layout'
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
   return ( 
     <Layout>
+      <Head>
+        
+      </Head>
       <Component {...pageProps} />
     </Layout>
     
