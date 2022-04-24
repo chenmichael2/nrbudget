@@ -19,8 +19,9 @@
 .unorderedList > li {
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 16px;
+    font-size: 18px;
     transition: 300ms;
+    color: #e24747;
 }
 
 .unorderedList > li:hover {
