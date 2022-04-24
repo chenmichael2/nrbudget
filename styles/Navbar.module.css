@@ -24,9 +24,6 @@
     transition: 100ms;
 }
 
-/* .brand:hover {
-    height: 40px;
-} */
 
 .brandName {
     color: #C54848;
@@ -35,10 +32,6 @@
     transition: 10ms;
 }
 
-/* .brandName:hover {
-    font-weight: bold;
-    font-size: 25px;
-} */
 
 .logoContainer:hover > .brand {
     height: 40px;
