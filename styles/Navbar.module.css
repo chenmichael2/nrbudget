@@ -24,16 +24,27 @@
     transition: 100ms;
 }
 
-.brand:hover {
+/* .brand:hover {
     height: 40px;
-}
+} */
 
 .brandName {
     color: #C54848;
     font-size: 20px;
     padding-left: 5px;
+    transition: 100ms;
 }
 
 .brandName:hover {
+    font-weight: bold;
+    font-size: 25px;
+}
 
+.logoContainer:hover > .brand {
+    height: 40px;
+}
+
+.logoContainer:hover > .brandName {
+    font-weight: bold;
+    font-size: 25px;
 }
