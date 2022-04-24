@@ -7,6 +7,16 @@
     background: var(--sapphire);
 }
 
+.unorderedList {
+    list-style: none;
+    display: flex;
+}
+
+.unorderedList > li {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .logo {
     max-height: 50px;
 }
@@ -31,7 +41,6 @@
     padding-left: 5px;
     transition: 300ms;
 }
-
 
 .logoContainer:hover > .brand {
     height: 40px;

@@ -12,9 +12,12 @@ function Navbar() {
             <div className="burger"></div>
             <div className="burger"></div>
             <div className="burger"></div>
-            <ul>
+            <ul className={styles.unorderedList}>
                 <li>
                     <Link href="/login"><a>Login</a></Link>
+                </li>
+                <li>
+                    <a>Hello</a>
                 </li>
             </ul>
         </nav>
