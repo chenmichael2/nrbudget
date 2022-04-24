@@ -1,9 +1,8 @@
 :root {
-  --munsell: #068D9D;
-  --liberty: #53599A;
-  --frost: #6D9DC5;
-  --middle: #80DED9;
-  --blizzard: #AEECEF;
+  --royal: #03256C;
+  --denim: #2541B2;
+  --sapphire: #1768AC;
+  --off: #F0FCFF;
 }
 html,
 body {
@@ -27,5 +26,5 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 5vh;
-  background: var(--munsell);
+  background: var(--blizzard);
 }
