@@ -4,16 +4,20 @@ import Layout from '../component/Layout'
 import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
-  return ( 
+  return (
     <Layout>
       <Head>
         <title>Budget</title>
         <meta name="description" content="Budget" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        />
         <link rel="icon" href="/icon.ico" />
       </Head>
       <Component {...pageProps} />
     </Layout>
-    
+
   )
 }
 
