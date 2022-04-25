@@ -8,6 +8,9 @@ function Budget() {
                 <h1>Welcome User!</h1>
                 {/* Things I want in my budget page */}
             </div>
+            <div>
+                
+            </div>
         </div>
     )
 }
