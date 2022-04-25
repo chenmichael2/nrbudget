@@ -4,7 +4,7 @@ function Budget() {
     return (
         <div className={styles.pageContainer}>
             <h1>Budget Page</h1>
-            <div>
+            <div className={styles.mainContainer}>
                 <div className={styles.budgetContainer}>
                     <h1>Welcome User!</h1>
                     {/* Things I want in my budget page */}
