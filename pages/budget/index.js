@@ -1,4 +1,4 @@
-
+import styles from "../../styles/Budget.modules.css";
 
 function Budget() {
     return (
