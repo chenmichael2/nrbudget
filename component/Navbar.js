@@ -17,7 +17,7 @@ function Navbar() {
                     <Link href="/login"><a>Login</a></Link>
                 </li>
                 <li>
-                    <Link href="/budget"><a>Hello</a></Link>
+                    <Link href="/budget"><a>Budget</a></Link>
                 </li>
             </ul>
         </nav>
