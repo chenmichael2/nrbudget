@@ -7,7 +7,17 @@ function Budget() {
             <div className={styles.mainContainer}>
                 <div className={styles.budgetContainer}>
                     <h1>Welcome User!</h1>
-                    {/* Things I want in my budget page */}
+                    <table className={styles.table}>
+                        <tr>
+                            <td>Month</td>
+                            <td>Date</td>
+                            <td>Description</td>
+                            <td>Category</td>
+                            <td>Income</td>
+                            <td>Debit</td>
+                            <td>Balance</td>
+                        </tr>
+                    </table>
                 </div>
                 <div>
                     <h1>Info Section</h1>
