@@ -9,7 +9,7 @@ function Budget() {
                 {/* Things I want in my budget page */}
             </div>
             <div>
-                
+                <h1>Info Section</h1>
             </div>
         </div>
     )
