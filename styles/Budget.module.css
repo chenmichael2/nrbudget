@@ -19,7 +19,7 @@
 
 /* table head */
 .table > thead > tr > th{ 
-    border: 1px solid blue;
+    border: 1px solid gray;
     background: var(--royal);
     color: white;
 }
@@ -27,4 +27,9 @@
 /* table rows */
 .table > tbody > tr > td {
     border: 1px solid purple;
+    text-align: center;
+}
+
+.month {
+    width: 1rem;
 }

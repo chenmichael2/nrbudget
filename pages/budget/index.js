@@ -10,7 +10,7 @@ function Budget() {
                     <table className={styles.table}>
                         <thead>
                             <tr>
-                                <th>Month</th>
+                                <th className={styles.month}>Month</th>
                                 <th>Date</th>
                                 <th>Description</th>
                                 <th>Category</th>
