@@ -20,6 +20,8 @@
 /* table head */
 .table > thead > tr > th{ 
     border: 1px solid blue;
+    background: var(--royal);
+    color: white;
 }
 
 /* table rows */
