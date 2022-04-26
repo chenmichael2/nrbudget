@@ -1,7 +1,9 @@
 .mainContainer {
     padding: 0 1rem 0 1rem;
-    
+    display: flex;
 }
+
+
 
 .table {
     font-family: arial, sans-serif;
