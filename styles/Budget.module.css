@@ -10,25 +10,25 @@
     padding-right: 1rem;
 }
 
-.table {
+/* .table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
     border: 1px solid black;
-}
+} */
 
 /* table head */
-.table > thead > tr > th{ 
+/* .table > thead > tr > th{ 
     border: 1px solid gray;
     background: var(--royal);
     color: white;
-}
+} */
 
 /* table rows */
-.table > tbody > tr > td {
+/* .table > tbody > tr > td {
     border: 1px solid purple;
     text-align: center;
-}
+} */
 
 .month {
     width: 1rem;
