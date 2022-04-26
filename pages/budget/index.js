@@ -1,4 +1,5 @@
 import styles from "../../styles/Budget.module.css";
+import { DataGrid } from '@mui/x-data-grid';
 
 function Budget() {
     return (
