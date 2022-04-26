@@ -48,11 +48,11 @@ function Budget() {
                             </tr>
                         </tbody>
                     </table> */}
-                    <TableContainer component={Paper}>
-                        <Table sx={{ minWidth: "750px" }} size="small" aria-label="a dense table">
+                    <TableContainer sx={{overflow: "hidden", width: "min-content"}} component={Paper}>
+                        <Table sx={{ minWidth: "750px"}} size="small" aria-label="a dense table">
                             <TableHead>
                                 <TableRow>
-                                    <TableCell>Month</TableCell>
+                                    <TableCell sx={{ maxWidth: "1rem", width: "1rem"}}>Month</TableCell>
                                     <TableCell>Date</TableCell>
                                     <TableCell>Description</TableCell>
                                     <TableCell>Category</TableCell>
