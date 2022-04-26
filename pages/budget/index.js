@@ -20,15 +20,15 @@ function Budget() {
                             </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <td>Month</td>
-                            <td>Date</td>
-                            <td>Description</td>
-                            <td>Category</td>
-                            <td>Income</td>
-                            <td>Debit</td>
-                            <td>Balance</td>
-                        </tr>
+                            <tr>
+                                <td>Month</td>
+                                <td>Date</td>
+                                <td>Description</td>
+                                <td>Category</td>
+                                <td>Income</td>
+                                <td>Debit</td>
+                                <td>Balance</td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
