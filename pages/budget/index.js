@@ -15,7 +15,7 @@ function Budget() {
             <div className={styles.mainContainer}>
                 <div className={styles.budgetContainer}>
                     <h1>Welcome User!</h1>
-                    <table className={styles.table}>
+                    {/* <table className={styles.table}>
                         <thead>
                             <tr>
                                 <th className={styles.month}>Month</th>
@@ -47,10 +47,9 @@ function Budget() {
                                 <td>Balance</td>
                             </tr>
                         </tbody>
-                    </table>
-                    <Table></Table>
+                    </table> */}
                     <TableContainer component={Paper}>
-                        <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
+                        <Table sx={{ minWidth: "750px" }} size="small" aria-label="a dense table">
                             <TableHead>
                                 <TableRow>
                                     <TableCell>Month</TableCell>
