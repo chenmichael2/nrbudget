@@ -8,6 +8,18 @@ function Budget() {
                 <div className={styles.budgetContainer}>
                     <h1>Welcome User!</h1>
                     <table className={styles.table}>
+                        <thead>
+                            <tr>
+                                <th>Month</th>
+                                <th>Date</th>
+                                <th>Description</th>
+                                <th>Category</th>
+                                <th>Income</th>
+                                <th>Debit</th>
+                                <th>Balance</th>
+                            </tr>
+                        </thead>
+                        <tbody>
                         <tr>
                             <td>Month</td>
                             <td>Date</td>
@@ -17,9 +29,10 @@ function Budget() {
                             <td>Debit</td>
                             <td>Balance</td>
                         </tr>
+                        </tbody>
                     </table>
                 </div>
-                <div>
+                <div className={styles.infoContainer}>
                     <h1>Info Section</h1>
                 </div>
             </div>
