@@ -17,6 +17,10 @@
     border: 1px solid black;
 }
 
-.table > thead {
-    border-bottom: 1px solid blue;
+.table > thead > tr > th{
+    border: 1px solid blue;
+}
+
+.table > tbody > tr > td {
+    border: 1px solid purple;
 }
