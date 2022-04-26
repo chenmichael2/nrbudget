@@ -17,10 +17,12 @@
     border: 1px solid black;
 }
 
-.table > thead > tr > th{
+/* table head */
+.table > thead > tr > th{ 
     border: 1px solid blue;
 }
 
+/* table rows */
 .table > tbody > tr > td {
     border: 1px solid purple;
 }
