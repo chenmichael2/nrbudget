@@ -63,17 +63,17 @@ function Budget() {
                                 </TableRow>
                             </TableHead>
                             <TableBody>
-                                    <TableRow
-                                        key="name"
-                                    >
-                                        <TableCell component="th" scope="row">
-                                            name
-                                        </TableCell>
-                                        <TableCell align="right">one</TableCell>
-                                        <TableCell align="right">two</TableCell>
-                                        <TableCell align="right">three</TableCell>
-                                        <TableCell align="right">four</TableCell>
-                                    </TableRow>
+                                <TableRow
+                                    key="name"
+                                >
+                                    <TableCell component="th" scope="row">Month</TableCell>
+                                    <TableCell>Date</TableCell>
+                                    <TableCell sx={{maxWidth: "1rem", wordBreak: "break-all"}}>Description</TableCell>
+                                    <TableCell>Category</TableCell>
+                                    <TableCell>Income</TableCell>
+                                    <TableCell>Debit</TableCell>
+                                    <TableCell>Balance</TableCell>
+                                </TableRow>
                             </TableBody>
                         </Table>
                     </TableContainer>
