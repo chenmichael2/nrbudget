@@ -54,16 +54,17 @@ function Budget() {
                             <TableHead>
                                 <TableRow>
                                     <TableCell>Month</TableCell>
-                                    <TableCell align="right">Date</TableCell>
-                                    <TableCell align="right">Description</TableCell>
-                                    <TableCell align="right">Carbs&nbsp;(g)</TableCell>
-                                    <TableCell align="right">Protein&nbsp;(g)</TableCell>
+                                    <TableCell>Date</TableCell>
+                                    <TableCell>Description</TableCell>
+                                    <TableCell>Category</TableCell>
+                                    <TableCell>Income</TableCell>
+                                    <TableCell>Debit</TableCell>
+                                    <TableCell>Balance</TableCell>
                                 </TableRow>
                             </TableHead>
                             <TableBody>
                                     <TableRow
                                         key="name"
-                                        sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                                     >
                                         <TableCell component="th" scope="row">
                                             name
