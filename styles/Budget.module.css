@@ -1,9 +1,12 @@
 .mainContainer {
     padding: 0 1rem 0 1rem;
     display: flex;
+    flex-wrap: wrap-reverse;
 }
+
 .budgetContainer {
     width: 65%;
+    min-width: 600px;
 }
 
 .table {
