@@ -79,6 +79,9 @@ function Budget() {
                     <div>
                         <h1>Info Section</h1>
                     </div>
+                    <div>
+                        
+                    </div>
                 </div>
             </div>
         </div>
