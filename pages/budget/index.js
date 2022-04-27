@@ -85,6 +85,8 @@ function Budget() {
                             <form>
                                 <label>Date: </label>
                                 <input type="date" />
+
+                                <label>Description:</label>
                             </form>
                         </Paper>
                     </div>
