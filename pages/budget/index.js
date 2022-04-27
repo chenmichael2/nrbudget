@@ -48,11 +48,11 @@ function Budget() {
                             </tr>
                         </tbody>
                     </table> */}
-                    <TableContainer className={styles.tableContainer}component={Paper}>
-                        <Table sx={{ minWidth: "750px"}} size="small" aria-label="a dense table">
+                    <TableContainer className={styles.tableContainer} component={Paper}>
+                        <Table className={styles.budgetTable} size="small" aria-label="a dense table">
                             <TableHead>
                                 <TableRow>
-                                    <TableCell sx={{ maxWidth: "1rem", width: "1rem"}}>Month</TableCell>
+                                    <TableCell>Month</TableCell>
                                     <TableCell>Date</TableCell>
                                     <TableCell>Description</TableCell>
                                     <TableCell>Category</TableCell>
@@ -67,7 +67,7 @@ function Budget() {
                                 >
                                     <TableCell component="th" scope="row">Month</TableCell>
                                     <TableCell>Date</TableCell>
-                                    <TableCell sx={{maxWidth: "1rem", wordBreak: "break-all"}}>Description</TableCell>
+                                    <TableCell className={styles.cellDescription}>Description</TableCell>
                                     <TableCell>Category</TableCell>
                                     <TableCell>Income</TableCell>
                                     <TableCell>Debit</TableCell>
