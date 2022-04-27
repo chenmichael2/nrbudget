@@ -77,10 +77,10 @@ function Budget() {
                 </div>
                 <div className={styles.infoContainer}>
                     <div>
-                        <h1>Info Section</h1>
+                    <h1>form to submit</h1>
                     </div>
                     <div>
-                        <h1>form to submit</h1>
+                    <h1>Info Section</h1>
                     </div>
                 </div>
             </div>
