@@ -6,8 +6,12 @@
 
 .budgetContainer {
     width: 65%;
-    min-width: 600px;
+    min-width: min-content;
     padding-right: 1rem;
+}
+
+.tableContainer{
+    /* min-width: 200px; */
 }
 
 /* .table {

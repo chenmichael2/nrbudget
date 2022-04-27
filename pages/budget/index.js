@@ -48,7 +48,7 @@ function Budget() {
                             </tr>
                         </tbody>
                     </table> */}
-                    <TableContainer sx={{overflow: "hidden", width: "min-content"}} component={Paper}>
+                    <TableContainer className={styles.tableContainer}component={Paper}>
                         <Table sx={{ minWidth: "750px"}} size="small" aria-label="a dense table">
                             <TableHead>
                                 <TableRow>
