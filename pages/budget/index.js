@@ -76,8 +76,9 @@ function Budget() {
                     </TableContainer>
                 </div>
                 <div className={styles.infoContainer}>
-                    <h1>Info Section</h1>
-                    <div></div>
+                    <div>
+                        <h1>Info Section</h1>
+                    </div>
                 </div>
             </div>
         </div>
