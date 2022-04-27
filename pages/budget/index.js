@@ -81,12 +81,12 @@ function Budget() {
                     </div>
                     <div>
                         <h1>form to submit</h1>
-                        <div>
+                        <Paper elevation={3}>
                             <form>
                                 <label>Date: </label>
                                 <input type="date" />
                             </form>
-                        </div>
+                        </Paper>
                     </div>
                 </div>
             </div>
