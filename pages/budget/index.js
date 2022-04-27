@@ -52,7 +52,6 @@ function Budget() {
                         <Table className={styles.budgetTable} size="small" aria-label="a dense table">
                             <TableHead>
                                 <TableRow>
-                                    <TableCell>Month</TableCell>
                                     <TableCell>Date</TableCell>
                                     <TableCell>Description</TableCell>
                                     <TableCell>Category</TableCell>
@@ -65,7 +64,6 @@ function Budget() {
                                 <TableRow
                                     key="name"
                                 >
-                                    <TableCell component="th" scope="row">Month</TableCell>
                                     <TableCell>Date</TableCell>
                                     <TableCell className={styles.cellDescription}>Description</TableCell>
                                     <TableCell>Category</TableCell>
@@ -79,6 +77,7 @@ function Budget() {
                 </div>
                 <div className={styles.infoContainer}>
                     <h1>Info Section</h1>
+                    <div></div>
                 </div>
             </div>
         </div>
