@@ -80,7 +80,7 @@ function Budget() {
                         <h1>Info Section</h1>
                     </div>
                     <div>
-                        
+                        <h1>form to submit</h1>
                     </div>
                 </div>
             </div>
