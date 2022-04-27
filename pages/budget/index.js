@@ -81,10 +81,12 @@ function Budget() {
                     </div>
                     <div>
                         <h1>form to submit</h1>
-                        <form>
-                            <label>Date: </label>
-                            <input type="date"/>
-                        </form>
+                        <div>
+                            <form>
+                                <label>Date: </label>
+                                <input type="date" />
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
