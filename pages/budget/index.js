@@ -87,6 +87,7 @@ function Budget() {
                                 <input type="date" /><br />
 
                                 <label>Description:</label>
+                                
 
                                 <label>Category</label>
                                 <label>Income</label>
