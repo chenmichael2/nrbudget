@@ -89,6 +89,8 @@ function Budget() {
                                 <label>Description:</label>
 
                                 <label></label>
+                                <label></label>
+                                <label></label>
                             </form>
                         </Paper>
                     </div>
