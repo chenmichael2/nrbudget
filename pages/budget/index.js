@@ -84,13 +84,13 @@ function Budget() {
                         <Paper elevation={3}>
                             <form>
                                 <label>Date: </label>
-                                <input type="date" />
+                                <input type="date" /><br />
 
                                 <label>Description:</label>
 
-                                <label></label>
-                                <label></label>
-                                <label></label>
+                                <label>Category</label>
+                                <label>Income</label>
+                                <label>Debit</label>
                             </form>
                         </Paper>
                     </div>
