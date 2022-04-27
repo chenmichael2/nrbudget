@@ -81,6 +81,9 @@ function Budget() {
                     </div>
                     <div>
                         <h1>form to submit</h1>
+                        <form>
+                            
+                        </form>
                     </div>
                 </div>
             </div>
