@@ -5,12 +5,11 @@
 }
 
 .budgetContainer {
-    width: 65%;
-    min-width: min-content;
+    min-width: 65%;
     padding-right: 1rem;
 }
 
-.tableContainer{
+.tableContainer {
     overflow: scroll;
     min-width: 100%;
 }
