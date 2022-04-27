@@ -6,6 +6,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import TextField from '@mui/material/TextField';
 
 function Budget() {
 
@@ -87,7 +88,7 @@ function Budget() {
                                 <input type="date" /><br />
 
                                 <label>Description:</label>
-                                
+                                <TextField /> <br />
 
                                 <label>Category</label>
                                 <label>Income</label>
