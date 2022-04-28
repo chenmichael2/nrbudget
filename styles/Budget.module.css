@@ -9,6 +9,9 @@
     min-width: 75%;
     padding-right: 1rem;
 }
+.infoContainer {
+    min-width: 25%;
+}
 
 .tableContainer {
     overflow: scroll;
@@ -20,6 +23,9 @@
     word-break: break-all;
 }
 
+.paperForm {
+    padding: 1rem;
+}
 /* .table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
