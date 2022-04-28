@@ -127,8 +127,8 @@ function Budget() {
                                     labelAlignment="left"
                                 />
                                 <Input
-                                    label="Debit"
-                                    placeholder="Debit"
+                                    label="Debit  "
+                                    placeholder="Debit  "
                                     isCentered={true}
                                     labelAlignment="left"
                                 />
