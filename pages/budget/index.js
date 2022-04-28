@@ -7,11 +7,15 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import TextField from '@mui/material/TextField';
-// import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
-// import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
-// import { DatePicker } from '@mui/x-date-pickers/DatePicker';
+import React, { useState } from "react";
+import { DatePicker } from "react-rainbow-components";
 
 function Budget() {
+    const [date, setDate] = useState(null);
+
+    function onChange(date) {
+        setDate(date);
+      }
 
     return (
         <div className={styles.pageContainer}>
@@ -88,10 +92,20 @@ function Budget() {
                         <Paper elevation={3}>
                             <form>
                                 <label>Date: </label>
-                                <input type="date" /><br />
+                                <DatePicker
+                                    formatStyle="medium"
+                                    id="datePicker-1"
+                                    value={date}
+                                    onChange={onChange}
+                                    required
+                                    error="Date required"
+                                    isCentered={true}
+                                    label="Date"
+                                    className={styles.datePicker}
+                                /><br />
 
                                 <label>Description:</label>
-                                <TextField type="text" size="small"/> <br />
+                                <TextField type="text" size="medium" /> <br />
 
                                 <label>Category</label>
                                 <label>Income</label>
