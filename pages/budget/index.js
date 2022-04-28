@@ -13,7 +13,6 @@ import { DatePicker, Input } from "react-rainbow-components"; //react rainbow
 
 function Budget() {
     const [date, setDate] = useState(null);
-    
 
     function onChange(date) {
         setDate(date);
@@ -25,39 +24,6 @@ function Budget() {
             <div className={styles.mainContainer}>
                 <div className={styles.budgetContainer}>
                     <h1>Welcome User!</h1>
-                    {/* <table className={styles.table}>
-                        <thead>
-                            <tr>
-                                <th className={styles.month}>Month</th>
-                                <th>Date</th>
-                                <th>Description</th>
-                                <th>Category</th>
-                                <th>Income</th>
-                                <th>Debit</th>
-                                <th>Balance</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Month</td>
-                                <td>Date</td>
-                                <td>Description</td>
-                                <td>Category</td>
-                                <td>Income</td>
-                                <td>Debit</td>
-                                <td>Balance</td>
-                            </tr>
-                            <tr>
-                                <td>Month</td>
-                                <td>Date</td>
-                                <td>Description</td>
-                                <td>Category</td>
-                                <td>Income</td>
-                                <td>Debit</td>
-                                <td>Balance</td>
-                            </tr>
-                        </tbody>
-                    </table> */}
                     <TableContainer className={styles.tableContainer} component={Paper}>
                         <Table className={styles.budgetTable} size="small" aria-label="a dense table">
                             <TableHead>
