@@ -8,14 +8,14 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import TextField from '@mui/material/TextField';
 import React, { useState } from "react";
-import { DatePicker, Input } from "react-rainbow-components";
+import { DatePicker, Input } from "react-rainbow-components"; //react rainbow
 
 function Budget() {
     const [date, setDate] = useState(null);
 
     function onChange(date) {
         setDate(date);
-      }
+    }
 
     return (
         <div className={styles.pageContainer}>
@@ -101,14 +101,37 @@ function Budget() {
                                     isCentered={true}
                                     label="Date"
                                     labelAlignment="left"
+                                    placeholder="Date"
                                     className={styles.datePicker}
-                                /><br />
-
-                                <label>Description:</label>
-                                <Input /> <br />
-
-                                <label>Category</label>
-                                <label>Income</label>
+                                />
+                                <Input
+                                    label="Description"
+                                    placeholder="Description"
+                                    required
+                                    isCentered={true}
+                                    labelAlignment="left"
+                                    error="Description Required"
+                                />
+                                <Input
+                                    label="Category"
+                                    placeholder="Category"
+                                    required
+                                    isCentered={true}
+                                    labelAlignment="left"
+                                    error="Category Required"
+                                />
+                                <Input
+                                    label="Income"
+                                    placeholder="Income"
+                                    isCentered={true}
+                                    labelAlignment="left"
+                                />
+                                <Input
+                                    label="Debit"
+                                    placeholder="Debit"
+                                    isCentered={true}
+                                    labelAlignment="left"
+                                />
                                 <label>Debit</label>
                             </form>
                         </Paper>
