@@ -91,7 +91,6 @@ function Budget() {
                         <h1>form to submit</h1>
                         <Paper elevation={3}>
                             <form>
-                                <label>Date: </label>
                                 <DatePicker
                                     formatStyle="medium"
                                     id="datePicker-1"
@@ -101,6 +100,7 @@ function Budget() {
                                     error="Date required"
                                     isCentered={true}
                                     label="Date"
+                                    labelAlignment="left"
                                     className={styles.datePicker}
                                 /><br />
 
