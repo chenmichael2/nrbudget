@@ -45,7 +45,14 @@
     border: 1px solid purple;
     text-align: center;
 } */
+.budgetButton {
+    margin-top: 0.5rem;
+    text-align: center;
+}
 
+.paperTitle {
+    text-align: center;
+}
 .month {
     width: 1rem;
 }

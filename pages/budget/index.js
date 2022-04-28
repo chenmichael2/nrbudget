@@ -6,12 +6,14 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import React, { useState } from "react";
 import { DatePicker, Input } from "react-rainbow-components"; //react rainbow
 
 function Budget() {
     const [date, setDate] = useState(null);
+    
 
     function onChange(date) {
         setDate(date);
@@ -88,9 +90,12 @@ function Budget() {
                         <h1>Info Section</h1>
                     </div>
                     <div>
-                        <h1>form to submit</h1>
+
                         <Paper className={styles.paperForm} elevation={3}>
-                            <form>
+                            <div className={styles.paperTitle}>
+                                <h1>Submit a Budget</h1>
+                            </div>
+                            <form method="post">
                                 <DatePicker
                                     formatStyle="medium"
                                     id="datePicker-1"
@@ -132,6 +137,9 @@ function Budget() {
                                     isCentered={true}
                                     labelAlignment="left"
                                 />
+                                <div className={styles.budgetButton}>
+                                    <Button variant="contained">Budget</Button>
+                                </div>
                             </form>
                         </Paper>
                     </div>
