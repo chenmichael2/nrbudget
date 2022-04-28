@@ -105,7 +105,7 @@ function Budget() {
                                 /><br />
 
                                 <label>Description:</label>
-                                <TextField type="text" size="medium" /> <br />
+                                <Input /> <br />
 
                                 <label>Category</label>
                                 <label>Income</label>
