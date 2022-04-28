@@ -8,7 +8,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import TextField from '@mui/material/TextField';
 import React, { useState } from "react";
-import { DatePicker } from "react-rainbow-components";
+import { DatePicker, Input } from "react-rainbow-components";
 
 function Budget() {
     const [date, setDate] = useState(null);
