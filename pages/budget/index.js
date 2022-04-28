@@ -89,7 +89,7 @@ function Budget() {
                     </div>
                     <div>
                         <h1>form to submit</h1>
-                        <Paper elevation={3}>
+                        <Paper className={styles.paperForm} elevation={3}>
                             <form>
                                 <DatePicker
                                     formatStyle="medium"
