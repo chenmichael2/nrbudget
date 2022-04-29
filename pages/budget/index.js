@@ -19,7 +19,7 @@ function Budget() {
         console.log(date);
     }
 
-    function onSubmit(e) {
+    function onSubmit() {
         console.log("submit button");
     }
 
@@ -61,12 +61,11 @@ function Budget() {
                         <h1>Info Section</h1>
                     </div>
                     <div>
-
                         <Paper className={styles.paperForm} elevation={3}>
                             <div className={styles.paperTitle}>
                                 <h1>Submit a Budget</h1>
                             </div>
-                            <form method="post"> {/* action="url it is sending" */}
+                            <form> {/* action="url it is sending" */}
                                 <DatePicker
                                     formatStyle="medium"
                                     id="datePicker-1"
@@ -109,7 +108,9 @@ function Budget() {
                                     labelAlignment="left"
                                 />
                                 <div className={styles.budgetButton}>
-                                    <Button onClick={onSubmit()} variant="contained">Budget</Button>
+                                    <Button onClick={() => {
+                                        onSubmit();
+                                    }} variant="contained">Budget</Button>
                                 </div>
                             </form>
                         </Paper>
