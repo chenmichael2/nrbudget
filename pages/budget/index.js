@@ -16,9 +16,10 @@ function Budget() {
 
     function onChange(date) {
         setDate(date);
+        console.log(date);
     }
 
-    function onSubmit() {
+    function onSubmit(e) {
         console.log("submit button");
     }
 
@@ -108,7 +109,7 @@ function Budget() {
                                     labelAlignment="left"
                                 />
                                 <div className={styles.budgetButton}>
-                                    <Button onClick="onSubmit()" variant="contained">Budget</Button>
+                                    <Button onClick={onSubmit()} variant="contained">Budget</Button>
                                 </div>
                             </form>
                         </Paper>
