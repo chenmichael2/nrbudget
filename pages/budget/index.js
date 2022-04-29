@@ -108,7 +108,7 @@ function Budget() {
                                     labelAlignment="left"
                                 />
                                 <div className={styles.budgetButton}>
-                                    <Button action="onSubmit" variant="contained">Budget</Button>
+                                    <Button onClick="onSubmit()" variant="contained">Budget</Button>
                                 </div>
                             </form>
                         </Paper>
