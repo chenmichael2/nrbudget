@@ -1,5 +1,4 @@
 import '../styles/globals.css'
-import Navbar from '../component/Navbar'
 import Layout from '../component/Layout'
 import Head from 'next/head';
 
