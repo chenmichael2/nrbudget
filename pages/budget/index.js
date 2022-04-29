@@ -66,7 +66,7 @@ function Budget() {
                                 <h1>Submit a Budget</h1>
                             </div>
                             <form> {/* action="url it is sending" */}
-                                <DatePicker
+                                {/* <DatePicker
                                     formatStyle="medium"
                                     id="datePicker-1"
                                     value={date}
@@ -111,7 +111,7 @@ function Budget() {
                                     <Button onClick={() => {
                                         onSubmit();
                                     }} variant="contained">Budget</Button>
-                                </div>
+                                </div> */}
                             </form>
                         </Paper>
                     </div>
