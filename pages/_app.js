@@ -9,6 +9,10 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Budget</title>
         <meta name="description" content="Budget" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        />
         <link rel="icon" href="/icon.ico" />
       </Head>
       <Component {...pageProps} />
