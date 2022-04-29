@@ -21,6 +21,7 @@ function Budget() {
 
     function onSubmit() {
         console.log("submit button");
+        // grab all the ids
     }
 
     return (
