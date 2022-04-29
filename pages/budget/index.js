@@ -66,7 +66,7 @@ function Budget() {
                             <div className={styles.paperTitle}>
                                 <h1>Submit a Budget</h1>
                             </div>
-                            <form method="post">
+                            <form method="post"> {/* action="url it is sending" */}
                                 <DatePicker
                                     formatStyle="medium"
                                     id="datePicker-1"
