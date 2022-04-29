@@ -72,7 +72,7 @@ function Budget() {
                                     value={date}
                                     onChange={onChange}
                                     required
-                                    error="Date required"
+                                    error="Date required" // this is causing the box to look red
                                     isCentered={true}
                                     label="Date"
                                     labelAlignment="left"
