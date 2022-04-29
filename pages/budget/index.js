@@ -18,6 +18,10 @@ function Budget() {
         setDate(date);
     }
 
+    function onSubmit() {
+        console.log("submit button");
+    }
+
     return (
         <div className={styles.pageContainer}>
             <h1>Budget Page</h1>
@@ -104,7 +108,7 @@ function Budget() {
                                     labelAlignment="left"
                                 />
                                 <div className={styles.budgetButton}>
-                                    <Button variant="contained">Budget</Button>
+                                    <Button action="onSubmit" variant="contained">Budget</Button>
                                 </div>
                             </form>
                         </Paper>
