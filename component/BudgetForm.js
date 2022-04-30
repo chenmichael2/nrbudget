@@ -5,6 +5,7 @@ import styles from '../styles/BudgetForm.module.css';
 import { useState } from 'react';
 
 function BudgetForm() {
+    // Date
     const [date, setDate] = useState(null);
 
     function onChange(date) {
@@ -16,6 +17,7 @@ function BudgetForm() {
         console.log("submit button");
         // grab all the ids
     }
+    // Dropdown
 
     return (
         <Paper className={styles.paperForm} elevation={3}>
@@ -54,7 +56,18 @@ function BudgetForm() {
                     error="Category Required"
                 /> */}
                 <div className="rainbow-m-bottom_xx-large rainbow-p-bottom_xx-large">
-                    
+                    <div className="rainbow-flex rainbow-align_right">
+                        <Picklist
+                            id="picklist-1"
+                            label="Select Building"
+                            hideLabel
+                        >
+                            <Option name="header" label="Your Buildings" variant="header" />
+                            <Option name="option 1" label="Experimental Building" />
+                            <Option name="option 2" label="Empire State" />
+                            <Option name="option 3" label="Central Park" />
+                        </Picklist>
+                    </div>
                 </div>
                 <Input
                     label="Income"
