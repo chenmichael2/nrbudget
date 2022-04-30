@@ -53,6 +53,9 @@ function BudgetForm() {
                     labelAlignment="left"
                     error="Category Required"
                 /> */}
+                <div className="rainbow-m-bottom_xx-large rainbow-p-bottom_xx-large">
+                    
+                </div>
                 <Input
                     label="Income"
                     placeholder="Income"
