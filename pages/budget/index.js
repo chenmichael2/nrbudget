@@ -8,7 +8,8 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import React, { useState } from "react";
-import { DatePicker, Input } from "react-rainbow-components"; //react rainbow
+import { DatePicker, Input, Picklist, Option, Modal} from "react-rainbow-components"; //react rainbow
+
 
 function Budget() {
     const [date, setDate] = useState(null);
