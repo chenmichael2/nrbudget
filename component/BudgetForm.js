@@ -2,6 +2,7 @@ import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import { DatePicker, Input, Picklist, Option, Modal } from "react-rainbow-components"; //react rainbow
 import styles from '../styles/BudgetForm.module.css';
+import { useState } from 'react';
 
 function BudgetForm() {
     const [date, setDate] = useState(null);
@@ -15,7 +16,7 @@ function BudgetForm() {
         console.log("submit button");
         // grab all the ids
     }
-    
+
     return (
         <Paper className={styles.paperForm} elevation={3}>
             <div className={styles.paperTitle}>
