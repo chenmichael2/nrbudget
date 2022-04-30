@@ -4,6 +4,18 @@ import { DatePicker, Input, Picklist, Option, Modal } from "react-rainbow-compon
 import styles from '../styles/BudgetForm.module.css';
 
 function BudgetForm() {
+    const [date, setDate] = useState(null);
+
+    function onChange(date) {
+        setDate(date);
+        console.log(date);
+    }
+
+    function onSubmit() {
+        console.log("submit button");
+        // grab all the ids
+    }
+    
     return (
         <Paper className={styles.paperForm} elevation={3}>
             <div className={styles.paperTitle}>
