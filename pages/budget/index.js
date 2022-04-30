@@ -1,4 +1,4 @@
-import styles from "../../styles/Budget.module.css";
+import styles from "../../styles/BudgetPage.module.css";
 import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import React, { useState } from "react";
