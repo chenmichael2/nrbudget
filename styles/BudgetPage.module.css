@@ -13,10 +13,6 @@
     min-width: 25%;
 }
 
-.tableContainer {
-    min-width: 100%;
-}
-
 .cellDescription {
     max-width: 1rem;
     word-break: break-all;
