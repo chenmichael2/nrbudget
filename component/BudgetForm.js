@@ -58,6 +58,7 @@ function BudgetForm() {
                 <div className="rainbow-m-bottom_xx-large rainbow-p-bottom_xx-large">
                     <div className="rainbow-flex rainbow-align_right">
                         <Picklist
+                            className={styles.categoryDrop}
                             id="picklist-1"
                             label="Select Building"
                             hideLabel
