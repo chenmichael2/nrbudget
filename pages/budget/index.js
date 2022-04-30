@@ -1,6 +1,7 @@
 import styles from "../../styles/BudgetPage.module.css";
 import React, { useState } from "react";
 import BudgetTable from "../../component/BudgetTable";
+import BudgetForm from "../../component/BudgetForm";
 
 function Budget() {
     const [date, setDate] = useState(null);
@@ -30,6 +31,7 @@ function Budget() {
                     </div>
                     <div>
                         {/* form */}
+                        <BudgetForm />
                     </div>
                 </div>
             </div>
