@@ -10,7 +10,6 @@ import Button from '@mui/material/Button';
 import React, { useState } from "react";
 import { DatePicker, Input, Picklist, Option, Modal} from "react-rainbow-components"; //react rainbow
 
-
 function Budget() {
     const [date, setDate] = useState(null);
 
