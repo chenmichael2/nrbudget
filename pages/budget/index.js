@@ -29,32 +29,7 @@ function Budget() {
             <div className={styles.mainContainer}>
                 <div className={styles.budgetContainer}>
                     <h1>Welcome User!</h1>
-                    <TableContainer className={styles.tableContainer} component={Paper}>
-                        <Table className={styles.budgetTable} size="small" aria-label="a dense table">
-                            <TableHead>
-                                <TableRow>
-                                    <TableCell>Date</TableCell>
-                                    <TableCell>Description</TableCell>
-                                    <TableCell>Category</TableCell>
-                                    <TableCell>Income</TableCell>
-                                    <TableCell>Debit</TableCell>
-                                    <TableCell>Balance</TableCell>
-                                </TableRow>
-                            </TableHead>
-                            <TableBody>
-                                <TableRow
-                                    key="name"
-                                >
-                                    <TableCell>Date</TableCell>
-                                    <TableCell className={styles.cellDescription}>Description</TableCell>
-                                    <TableCell>Category</TableCell>
-                                    <TableCell>Income</TableCell>
-                                    <TableCell>Debit</TableCell>
-                                    <TableCell>Balance</TableCell>
-                                </TableRow>
-                            </TableBody>
-                        </Table>
-                    </TableContainer>
+                    {/* Where the table is at */}
                 </div>
                 <div className={styles.infoContainer}>
                     <div>
