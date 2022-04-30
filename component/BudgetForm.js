@@ -2,7 +2,6 @@ import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import { DatePicker, Input, Picklist, Option, Modal } from "react-rainbow-components"; //react rainbow
 
-
 function BudgetForm() {
     return (
         <Paper className={styles.paperForm} elevation={3}>

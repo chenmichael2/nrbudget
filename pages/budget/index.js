@@ -1,8 +1,5 @@
 import styles from "../../styles/BudgetPage.module.css";
-import Paper from '@mui/material/Paper';
-import Button from '@mui/material/Button';
 import React, { useState } from "react";
-import { DatePicker, Input, Picklist, Option, Modal} from "react-rainbow-components"; //react rainbow
 import BudgetTable from "../../component/BudgetTable";
 
 function Budget() {
