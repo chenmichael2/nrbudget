@@ -44,6 +44,7 @@ function BudgetForm() {
                     labelAlignment="left"
                     error="Description Required"
                 />
+                {/* Need to change this section input into a dropdown */}
                 <Input
                     label="Category"
                     placeholder="Category"
