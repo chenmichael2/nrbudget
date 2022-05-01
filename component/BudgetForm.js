@@ -71,7 +71,7 @@ function BudgetForm() {
                                 enableSearch
                             >
                                 <Option name="form 1" label="Create Category" />
-                                <Option name="header" label="Your Buildings" variant="header" />
+                                <Option name="header" label="Pick Category" variant="header" />
                                 <Option name="option 3" label="Experimental" />
 
 
