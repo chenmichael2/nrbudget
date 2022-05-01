@@ -11,5 +11,8 @@
     text-align: center;
 }
 
+.circleIcon {
+    color: var(--royal)
+}
 /* .categoryDrop {
 } */
