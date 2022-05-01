@@ -2,6 +2,7 @@ import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import { DatePicker, Input, Picklist, Option, Modal, GlobalHeader } from "react-rainbow-components"; //react rainbow
 import styles from '../styles/BudgetForm.module.css';
+import AddFilledIcon from '@bit/nexxtway.react-rainbow.icons.add-filled';
 import { useState } from 'react';
 
 function BudgetForm() {
