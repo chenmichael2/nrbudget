@@ -77,8 +77,7 @@ function BudgetForm() {
                                 <Option name="option 4" label="Bennet Towers" />
                                 <Option name="option 5" label="Empire State" />
                                 <Option name="option 6" label="Central Park" />
-                                <Option name="option 7" label="Chrysler" />
-                                <Option name="option 8" label="Plaza" />
+
                             </Picklist>
                         </div>
                     {/* </GlobalHeader> */}
