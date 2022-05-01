@@ -71,7 +71,6 @@ function BudgetForm() {
                                 enableSearch
                             >
                                 <Option name="option 1" label="All Buildings" />
-                                <Option name="option 2" label="New Building" />
                                 <Option name="header" label="Your Buildings" variant="header" />
                                 <Option name="option 3" label="Experimental" />
 
