@@ -17,6 +17,7 @@
 
 .options {
     display: flex;
+    width: 100%;
 }
 
 /* .categoryDrop {
