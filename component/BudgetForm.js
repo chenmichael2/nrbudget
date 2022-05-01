@@ -74,7 +74,6 @@ function BudgetForm() {
                                 <Option name="option 2" label="New Building" />
                                 <Option name="header" label="Your Buildings" variant="header" />
                                 <Option name="option 3" label="Experimental" />
-                                <Option name="option 4" label="Bennet Towers" />
 
 
                             </Picklist>
