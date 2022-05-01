@@ -71,7 +71,7 @@ function BudgetForm() {
                                 // onChange={value => setState({ value })}
                                 enableSearch
                             >
-                                <Option className={styles.options} name="form 1" label="Create Category" icon={<AddCircleIcon className={styles.circleIcon} />} />
+                                <Option className={styles.options} name="form 1" label="Create Category" />
                                 {/* icon={<AddFilledIcon />} */}
                                 <Option name="header" label="Pick Category" variant="header" />
                                 <Option name="option 3" label="Experimental" />

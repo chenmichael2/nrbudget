@@ -14,5 +14,10 @@
 .circleIcon {
     color: var(--royal)
 }
+
+.options {
+    display: flex;
+}
+
 /* .categoryDrop {
 } */
