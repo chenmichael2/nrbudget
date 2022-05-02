@@ -68,10 +68,11 @@ function BudgetForm() {
                                 required
                                 id="picklist-3"
                                 placeholder="Choose Building"
+                                isCentered={true}
                                 // onChange={value => setState({ value })}
                                 enableSearch
                             >
-                                <Option name="form 1" label="Create Category"  icon={<AddCircleIcon className={styles.circleIcon} />}/>
+                                <Option name="form 1" label="Create Category" icon={<AddCircleIcon className={styles.circleIcon} />}/>
                                 {/* icon={<AddFilledIcon />} */}
                                 <Option name="header" label="Pick Category" variant="header" />
                                 <Option name="option 3" label="Experimental" />
