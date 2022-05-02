@@ -52,10 +52,6 @@ function BudgetForm() {
                 </div>
                 <div className={styles.inputs}>
                     <div className="rainbow-m-bottom_xx-large rainbow-p-bottom_xx-large">
-                        {/* <GlobalHeader
-                        src="images/user/user1.jpg"
-                        className="rainbow-p-bottom_xx-large rainbow-m-bottom_xx-large"
-                    > */}
                         <div className="rainbow-flex rainbow-align_right">
                             <Picklist
                                 label="Category"
