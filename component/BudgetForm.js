@@ -74,6 +74,7 @@ function BudgetForm() {
                                 <Option className={styles.options} name="form 1" label="Create Category" icon={<AddCircleIcon className={styles.circleIcon} />}/>
                                 <Option name="header" label="Pick Category" variant="header" />
                                 <Option name="option 3" label="Income" />
+                                <Option name="thing" label="No Categories" />
                             </Picklist>
                         </div>
                     {/* </GlobalHeader> */}
