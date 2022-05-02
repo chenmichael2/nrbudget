@@ -85,7 +85,6 @@ function BudgetForm() {
                         labelAlignment="left"
                     />
                 </div>
-
                 <div className={styles.budgetButton}>
                     <Button onClick={() => {
                         onSubmit();
