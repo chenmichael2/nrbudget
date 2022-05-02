@@ -42,7 +42,6 @@ function BudgetForm() {
                     />
                 </div>
                 <div className={styles.inputs}>
-
                     <Input
                         label="Description"
                         placeholder="Description"
