@@ -51,15 +51,6 @@ function BudgetForm() {
                         error="Description Required"
                     />
                 </div>
-                {/* Need to change this section input into a dropdown */}
-                {/* <Input
-                    label="Category"
-                    placeholder="Category"
-                    required
-                    isCentered={true}
-                    labelAlignment="left"
-                    error="Category Required"
-                /> */}
                 <div className={styles.inputs}>
 
                     <div className="rainbow-m-bottom_xx-large rainbow-p-bottom_xx-large">
