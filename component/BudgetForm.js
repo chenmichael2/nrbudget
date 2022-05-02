@@ -41,6 +41,8 @@ function BudgetForm() {
                         className={styles.datePicker}
                     />
                 </div>
+                <div className={styles.inputs}>
+                    
                 <Input
                     label="Description"
                     placeholder="Description"
@@ -48,6 +50,7 @@ function BudgetForm() {
                     labelAlignment="left"
                     error="Description Required"
                 />
+                </div>
                 {/* Need to change this section input into a dropdown */}
                 {/* <Input
                     label="Category"
@@ -57,6 +60,8 @@ function BudgetForm() {
                     labelAlignment="left"
                     error="Category Required"
                 /> */}
+                <div className={styles.inputs}>
+
                 <div className="rainbow-m-bottom_xx-large rainbow-p-bottom_xx-large">
                     {/* <GlobalHeader
                         src="images/user/user1.jpg"
@@ -81,16 +86,22 @@ function BudgetForm() {
                     </div>
                     {/* </GlobalHeader> */}
                 </div>
-                <Input
+                </div>
+                <div className={styles.inputs}>
+                    <Input
                     label="Income"
                     placeholder="Income"
                     labelAlignment="left"
                 />
-                <Input
+                </div>
+                <div className={styles.inputs}>
+                    <Input
                     label="Debit"
                     placeholder="Debit"
                     labelAlignment="left"
                 />
+                </div>
+                
                 <div className={styles.budgetButton}>
                     <Button onClick={() => {
                         onSubmit();
