@@ -69,7 +69,6 @@ function BudgetForm() {
                                 <Option name="thing" label="No Categories" disabled />
                             </Picklist>
                         </div>
-                        {/* </GlobalHeader> */}
                     </div>
                 </div>
                 <div className={styles.inputs}>
