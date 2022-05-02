@@ -74,8 +74,6 @@ function BudgetForm() {
                                 {/* icon={<AddFilledIcon />} */}
                                 <Option name="header" label="Pick Category" variant="header" />
                                 <Option name="option 3" label="Experimental" />
-
-
                             </Picklist>
                         </div>
                     {/* </GlobalHeader> */}
