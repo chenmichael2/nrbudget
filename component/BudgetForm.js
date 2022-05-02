@@ -71,10 +71,10 @@ function BudgetForm() {
                                 // onChange={value => setState({ value })}
                                 enableSearch
                             >
-                                <Option className={styles.options} name="form 1" label="Create Category" icon={<AddCircleIcon className={styles.circleIcon} />}/>
-                                <Option name="header" label="Pick Category" variant="header" />
-                                <Option name="option 3" label="Income" />
-                                <Option name="thing" label="No Categories" disabled/>
+                                <Option className={styles.optionForm} name="form 1" label="Create Category" icon={<AddCircleIcon className={styles.circleIcon} />}/>
+                                <Option className={styles.options}name="header" label="Pick Category" variant="header" />
+                                <Option className={styles.options}name="option 3" label="Income" />
+                                <Option className={styles.options}name="thing" label="No Categories" disabled/>
                             </Picklist>
                         </div>
                     {/* </GlobalHeader> */}
