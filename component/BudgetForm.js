@@ -90,7 +90,6 @@ function BudgetForm() {
                 <Input
                     label="Debit"
                     placeholder="Debit"
-                    isCentered={true}
                     labelAlignment="left"
                 />
                 <div className={styles.budgetButton}>
