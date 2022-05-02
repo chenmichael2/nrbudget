@@ -43,7 +43,6 @@ function BudgetForm() {
                     label="Description"
                     placeholder="Description"
                     required
-                    isCentered={true}
                     labelAlignment="left"
                     error="Description Required"
                 />
