@@ -27,7 +27,7 @@ function BudgetForm() {
                 <h1>Submit a Budget</h1>
             </div>
             <form> {/* action="url it is sending" */}
-                <div>
+                <div className={styles.inputs}>
                     <DatePicker
                         formatStyle="medium"
                         id="datePicker-1"
