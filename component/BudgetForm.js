@@ -17,6 +17,7 @@ function BudgetForm() {
 
     function onSubmit() {
         console.log("submit button");
+        console.log(date);
         // grab all the ids
     }
     // Dropdown
