@@ -27,20 +27,20 @@ function BudgetForm() {
                 <h1>Submit a Budget</h1>
             </div>
             <form> {/* action="url it is sending" */}
-            <div>
-                <DatePicker
-                    formatStyle="medium"
-                    id="datePicker-1"
-                    value={date}
-                    onChange={onChange}
-                    required
-                    error="Date required" // this is causing the box to look red
-                    label="Date"
-                    labelAlignment="left"
-                    placeholder="Date"
-                    className={styles.datePicker}
-                />
-            </div>
+                <div>
+                    <DatePicker
+                        formatStyle="medium"
+                        id="datePicker-1"
+                        value={date}
+                        onChange={onChange}
+                        required
+                        error="Date required" // this is causing the box to look red
+                        label="Date"
+                        labelAlignment="left"
+                        placeholder="Date"
+                        className={styles.datePicker}
+                    />
+                </div>
                 <Input
                     label="Description"
                     placeholder="Description"
@@ -62,23 +62,23 @@ function BudgetForm() {
                         src="images/user/user1.jpg"
                         className="rainbow-p-bottom_xx-large rainbow-m-bottom_xx-large"
                     > */}
-                        <div className="rainbow-flex rainbow-align_right">
-                            <Picklist
-                                label="Category"
-                                className={styles.pickList}
-                                labelAlignment="left"
-                                required
-                                id="picklist-3"
-                                placeholder="Choose Building"
-                                // onChange={value => setState({ value })}
-                                enableSearch
-                            >
-                                <Option className={styles.optionForm} name="form 1" label="Create Category" icon={<AddCircleIcon className={styles.circleIcon} />}/>
-                                <Option name="header" label="Pick Category" variant="header" />
-                                <Option name="option 3" label="Income" />
-                                <Option name="thing" label="No Categories" disabled/>
-                            </Picklist>
-                        </div>
+                    <div className="rainbow-flex rainbow-align_right">
+                        <Picklist
+                            label="Category"
+                            className={styles.pickList}
+                            labelAlignment="left"
+                            required
+                            id="picklist-3"
+                            placeholder="Choose Building"
+                            // onChange={value => setState({ value })}
+                            enableSearch
+                        >
+                            <Option className={styles.optionForm} name="form 1" label="Create Category" icon={<AddCircleIcon className={styles.circleIcon} />} />
+                            <Option name="header" label="Pick Category" variant="header" />
+                            <Option name="option 3" label="Income" />
+                            <Option name="thing" label="No Categories" disabled />
+                        </Picklist>
+                    </div>
                     {/* </GlobalHeader> */}
                 </div>
                 <Input
