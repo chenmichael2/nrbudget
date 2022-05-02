@@ -12,11 +12,12 @@
 }
 
 .circleIcon {
-    color: var(--sapphire)
+    color: var(--sapphire);
+    height: 100%;
 }
 
-.options {
-    width: 100%;
+.options > div > span {
+    display: flex;
 }
 
 /* .categoryDrop {

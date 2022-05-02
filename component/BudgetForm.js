@@ -4,6 +4,7 @@ import { DatePicker, Input, Picklist, Option, Modal, GlobalHeader } from "react-
 import styles from '../styles/BudgetForm.module.css';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
 import { useState } from 'react';
+import { setLazyProp } from 'next/dist/server/api-utils';
 
 function BudgetForm() {
     // Date
@@ -62,11 +63,11 @@ function BudgetForm() {
                         <div className="rainbow-flex rainbow-align_right">
                             <Picklist
                                 label="Category"
+                                className={styles.pickList}
                                 labelAlignment="left"
                                 required
                                 id="picklist-3"
                                 placeholder="Choose Building"
-                                isCentered={true}
                                 // onChange={value => setState({ value })}
                                 enableSearch
                             >
