@@ -42,14 +42,14 @@ function BudgetForm() {
                     />
                 </div>
                 <div className={styles.inputs}>
-                    
-                <Input
-                    label="Description"
-                    placeholder="Description"
-                    required
-                    labelAlignment="left"
-                    error="Description Required"
-                />
+
+                    <Input
+                        label="Description"
+                        placeholder="Description"
+                        required
+                        labelAlignment="left"
+                        error="Description Required"
+                    />
                 </div>
                 {/* Need to change this section input into a dropdown */}
                 {/* <Input
@@ -62,46 +62,46 @@ function BudgetForm() {
                 /> */}
                 <div className={styles.inputs}>
 
-                <div className="rainbow-m-bottom_xx-large rainbow-p-bottom_xx-large">
-                    {/* <GlobalHeader
+                    <div className="rainbow-m-bottom_xx-large rainbow-p-bottom_xx-large">
+                        {/* <GlobalHeader
                         src="images/user/user1.jpg"
                         className="rainbow-p-bottom_xx-large rainbow-m-bottom_xx-large"
                     > */}
-                    <div className="rainbow-flex rainbow-align_right">
-                        <Picklist
-                            label="Category"
-                            className={styles.pickList}
-                            labelAlignment="left"
-                            required
-                            id="picklist-3"
-                            placeholder="Choose Building"
-                            // onChange={value => setState({ value })}
-                            enableSearch
-                        >
-                            <Option className={styles.optionForm} name="form 1" label="Create Category" icon={<AddCircleIcon className={styles.circleIcon} />} />
-                            <Option name="header" label="Pick Category" variant="header" />
-                            <Option name="option 3" label="Income" />
-                            <Option name="thing" label="No Categories" disabled />
-                        </Picklist>
+                        <div className="rainbow-flex rainbow-align_right">
+                            <Picklist
+                                label="Category"
+                                className={styles.pickList}
+                                labelAlignment="left"
+                                required
+                                id="picklist-3"
+                                placeholder="Choose Building"
+                                // onChange={value => setState({ value })}
+                                enableSearch
+                            >
+                                <Option className={styles.optionForm} name="form 1" label="Create Category" icon={<AddCircleIcon className={styles.circleIcon} />} />
+                                <Option name="header" label="Pick Category" variant="header" />
+                                <Option name="option 3" label="Income" />
+                                <Option name="thing" label="No Categories" disabled />
+                            </Picklist>
+                        </div>
+                        {/* </GlobalHeader> */}
                     </div>
-                    {/* </GlobalHeader> */}
-                </div>
                 </div>
                 <div className={styles.inputs}>
                     <Input
-                    label="Income"
-                    placeholder="Income"
-                    labelAlignment="left"
-                />
+                        label="Income"
+                        placeholder="Income"
+                        labelAlignment="left"
+                    />
                 </div>
                 <div className={styles.inputs}>
                     <Input
-                    label="Debit"
-                    placeholder="Debit"
-                    labelAlignment="left"
-                />
+                        label="Debit"
+                        placeholder="Debit"
+                        labelAlignment="left"
+                    />
                 </div>
-                
+
                 <div className={styles.budgetButton}>
                     <Button onClick={() => {
                         onSubmit();
