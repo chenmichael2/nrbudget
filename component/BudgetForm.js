@@ -85,7 +85,6 @@ function BudgetForm() {
                 <Input
                     label="Income"
                     placeholder="Income"
-                    isCentered={true}
                     labelAlignment="left"
                 />
                 <Input
