@@ -27,6 +27,7 @@ function BudgetForm() {
                 <h1>Submit a Budget</h1>
             </div>
             <form> {/* action="url it is sending" */}
+            <div>
                 <DatePicker
                     formatStyle="medium"
                     id="datePicker-1"
@@ -39,6 +40,7 @@ function BudgetForm() {
                     placeholder="Date"
                     className={styles.datePicker}
                 />
+            </div>
                 <Input
                     label="Description"
                     placeholder="Description"
