@@ -71,7 +71,6 @@ function BudgetForm() {
                                 enableSearch
                             >
                                 <Option name="form 1" label="Create Category" icon={<AddCircleIcon className={styles.circleIcon} />}/>
-                                {/* icon={<AddFilledIcon />} */}
                                 <Option name="header" label="Pick Category" variant="header" />
                                 <Option name="option 3" label="Experimental" />
                             </Picklist>
