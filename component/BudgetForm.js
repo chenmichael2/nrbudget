@@ -27,6 +27,16 @@ function BudgetForm() {
     //     // this doesn't work
     // }
 
+    function incomeChange(e) {
+        e.preventDefault();
+        setIncome(e.target.value);
+    }
+
+    function descriptionChange(e) {
+        e.preventDefault();
+        setDescription(e.target.value);
+    }
+
     function onSubmit() {
         console.log("submit button");
         let dateInput = date;
