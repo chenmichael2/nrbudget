@@ -44,7 +44,7 @@ function BudgetForm() {
         let categoryInput = category;
         let incomeInput = income;
         let debitInput = debit;
-
+        console.log(dateInput, descriptionInput, categoryInput, incomeInput, debitInput);
         // grab all the ids
     }
     // Dropdown
