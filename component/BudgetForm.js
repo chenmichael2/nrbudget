@@ -72,7 +72,6 @@ function BudgetForm() {
                                 required
                                 id="picklist-3"
                                 placeholder="Choose Building"
-                                // onChange={value => setState({ value })}
                                 enableSearch
                             >
                                 <Option className={styles.optionForm} name="form 1" label="Create Category" icon={<AddCircleIcon className={styles.circleIcon} />} />
