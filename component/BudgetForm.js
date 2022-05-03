@@ -102,6 +102,8 @@ function BudgetForm() {
                 <div className={styles.inputs}>
                     <Input
                         label="Income"
+                        name="income"
+                        id="income"
                         placeholder="Income"
                         labelAlignment="left"
                         value={income}
@@ -111,6 +113,8 @@ function BudgetForm() {
                 <div className={styles.inputs}>
                     <Input
                         label="Debit"
+                        name="debit"
+                        id="debit"
                         placeholder="Debit"
                         labelAlignment="left"
                         value={debit}
