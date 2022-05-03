@@ -9,9 +9,11 @@ import { setLazyProp } from 'next/dist/server/api-utils';
 function BudgetForm() {
     // Date
     const [date, setDate] = useState(null);
+    const description = useState('');
 
     function descriptionChange() {
-        const string = document.querySelector('#description').value
+        e.preventDefault();
+        
     }
 
     function onChange(date) {
