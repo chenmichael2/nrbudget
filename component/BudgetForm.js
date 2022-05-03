@@ -23,7 +23,7 @@ function BudgetForm() {
         console.log("submit button");
         let dateInput = date;
         let descriptionInput = description;
-
+        console.log(descriptionInput);
         // grab all the ids
     }
     // Dropdown
