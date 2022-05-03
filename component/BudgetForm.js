@@ -9,11 +9,10 @@ import { setLazyProp } from 'next/dist/server/api-utils';
 function BudgetForm() {
     // Date
     const [date, setDate] = useState(null);
-    const [description] = useState('');
+    const [description, setDescription] = useState('');
 
     function descriptionChange() {
         e.preventDefault();
-
     }
 
     function onChange(date) {
@@ -56,6 +55,7 @@ function BudgetForm() {
                         id="description"
                         onChange={descriptionChange}
                         required
+                        value={description}
                         labelAlignment="left"
                         error="Description Required"
                     />
