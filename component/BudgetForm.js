@@ -12,13 +12,17 @@ function BudgetForm() {
     const [description, setDescription] = useState('');
     const [category, setCategory] = useState('');
 
+    function onChange(date) {
+        setDate(date);
+    }
+
     function descriptionChange(e) {
         e.preventDefault();
         setDescription(e.target.value);
     }
 
-    function onChange(date) {
-        setDate(date);
+    function categoryChange(e) {
+
     }
 
     function onSubmit() {
