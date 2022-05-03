@@ -9,6 +9,7 @@ import { setLazyProp } from 'next/dist/server/api-utils';
 function BudgetForm() {
     // Date
     const [date, setDate] = useState(null);
+    const description = useState()
 
     function onChange(date) {
         setDate(date);
@@ -17,7 +18,7 @@ function BudgetForm() {
     function onSubmit() {
         console.log("submit button");
         let inputDate = date;
-        
+
         // grab all the ids
     }
     // Dropdown
@@ -46,6 +47,7 @@ function BudgetForm() {
                     <Input
                         label="Description"
                         placeholder="Description"
+                        name="description"
                         required
                         labelAlignment="left"
                         error="Description Required"
