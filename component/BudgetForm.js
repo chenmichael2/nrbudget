@@ -32,9 +32,9 @@ function BudgetForm() {
         setIncome(e.target.value);
     }
 
-    function descriptionChange(e) {
+    function debitChange(e) {
         e.preventDefault();
-        setDescription(e.target.value);
+        setDebit(e.target.value);
     }
 
     function onSubmit() {
