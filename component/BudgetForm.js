@@ -10,6 +10,7 @@ function BudgetForm() {
     // Date
     const [date, setDate] = useState(null);
     const [description, setDescription] = useState('');
+    const [category, setCategory] = useState('');
 
     function descriptionChange(e) {
         e.preventDefault();
