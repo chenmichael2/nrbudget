@@ -4,13 +4,12 @@ import { DatePicker, Input, Picklist, Option, Modal, GlobalHeader } from "react-
 import styles from '../styles/BudgetForm.module.css';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
 import { useState } from 'react';
-import { setLazyProp } from 'next/dist/server/api-utils';
 
 function BudgetForm() {
     // Date
     const [date, setDate] = useState(null);
     const [description, setDescription] = useState('');
-    const [category, setCategory] = useState('');
+    // const [category, setCategory] = useState('');
 
     function onChange(date) {
         setDate(date);
@@ -21,10 +20,10 @@ function BudgetForm() {
         setDescription(e.target.value);
     }
 
-    function categoryChange(e) {
-        // setCategory(e.target.value);
-        // this doesn't work
-    }
+    // function categoryChange(e) {
+    //     // setCategory(e.target.value);
+    //     // this doesn't work
+    // }
 
     function onSubmit() {
         console.log("submit button");
@@ -75,7 +74,7 @@ function BudgetForm() {
                                 className={styles.pickList}
                                 labelAlignment="left"
                                 required
-                                onChange={categoryChange}
+                                // onChange={categoryChange}
                                 id="picklist-3"
                                 placeholder="Choose Building"
                                 enableSearch
