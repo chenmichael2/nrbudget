@@ -12,12 +12,12 @@ function BudgetForm() {
 
     function onChange(date) {
         setDate(date);
-        console.log(date);
     }
 
     function onSubmit() {
         console.log("submit button");
-        console.log(date);
+        let inputDate = date;
+        
         // grab all the ids
     }
     // Dropdown
