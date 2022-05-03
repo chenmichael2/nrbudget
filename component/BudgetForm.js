@@ -21,7 +21,8 @@ function BudgetForm() {
 
     function onSubmit() {
         console.log("submit button");
-        let inputDate = date;
+        let dateInput = date;
+        let descriptionInput = description;
 
         // grab all the ids
     }
