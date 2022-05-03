@@ -11,9 +11,9 @@ function BudgetForm() {
     const [date, setDate] = useState(null);
     const [description, setDescription] = useState('');
 
-    function descriptionChange() {
+    function descriptionChange(e) {
         e.preventDefault();
-        setDescription()
+        setDescription(e.target.value)
     }
 
     function onChange(date) {
