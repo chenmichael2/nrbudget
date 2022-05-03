@@ -22,7 +22,8 @@ function BudgetForm() {
     }
 
     function categoryChange(e) {
-
+        e.preventDefault();
+        setCategory(e.target.value);
     }
 
     function onSubmit() {
@@ -62,7 +63,6 @@ function BudgetForm() {
                         id="description"
                         onChange={descriptionChange}
                         required
-                        value={description}
                         labelAlignment="left"
                         error="Description Required"
                     />
@@ -75,6 +75,7 @@ function BudgetForm() {
                                 className={styles.pickList}
                                 labelAlignment="left"
                                 required
+                                onChange={categoryChange}
                                 id="picklist-3"
                                 placeholder="Choose Building"
                                 enableSearch
