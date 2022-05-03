@@ -13,7 +13,8 @@ function BudgetForm() {
 
     function descriptionChange(e) {
         e.preventDefault();
-        setDescription(e.target.value)
+        setDescription(e.target.value);
+        console.log(description);
     }
 
     function onChange(date) {
