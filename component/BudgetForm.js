@@ -105,7 +105,7 @@ function BudgetForm() {
                         placeholder="Income"
                         labelAlignment="left"
                         value={income}
-                        
+                        onChange={incomeChange}
                     />
                 </div>
                 <div className={styles.inputs}>
@@ -114,6 +114,7 @@ function BudgetForm() {
                         placeholder="Debit"
                         labelAlignment="left"
                         value={debit}
+                        onChange={debitChange}
                     />
                 </div>
                 <div className={styles.budgetButton}>
