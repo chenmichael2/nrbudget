@@ -40,7 +40,7 @@ function BudgetForm() {
 
     function onSubmit() {
         console.log("submit button");
-        let dateInput = date;
+        let dateInput = date.toDateString();
         let descriptionInput = description;
         let categoryInput = category;
         let incomeInput = income;
@@ -48,7 +48,7 @@ function BudgetForm() {
         console.log(dateInput, descriptionInput, categoryInput, incomeInput, debitInput);
         // need to check if required fields are filled
         
-        console.log(dateInput.toDateString());
+        console.log(dateInput);
     }
     // Dropdown
 
