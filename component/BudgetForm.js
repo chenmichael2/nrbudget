@@ -23,7 +23,7 @@ function BudgetForm() {
     }
 
     function categoryChange(e) {
-        setCategory(value);
+        console.log(e);
         // this doesn't work
     }
 
@@ -89,10 +89,10 @@ function BudgetForm() {
                                 className={styles.pickList}
                                 labelAlignment="left"
                                 required
-                                onChange={value => setCategory({ value })}
+                                onChange={categoryChange}
                                 value={category}
                                 id="picklist-3"
-                                placeholder="Choose Building"
+                                placeholder="Choose Category"
                                 enableSearch
                             >
                                 <Option className={styles.optionForm} name="form 1" label="Create Category" icon={<AddCircleIcon className={styles.circleIcon} />} />
