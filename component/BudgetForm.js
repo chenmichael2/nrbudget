@@ -9,7 +9,7 @@ function BudgetForm() {
     // Date
     const [date, setDate] = useState(null);
     const [description, setDescription] = useState('');
-    const [category, setCategory] = useState('');
+    const [category, setCategory] = useState(null);
     const [income, setIncome] = useState(null);
     const [debit, setDebit] = useState(null);
 
