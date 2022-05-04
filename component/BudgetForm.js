@@ -48,7 +48,7 @@ function BudgetForm() {
         console.log(dateInput, descriptionInput, categoryInput, incomeInput, debitInput);
         // need to check if required fields are filled
         
-        console.log(dateInput.getDate());
+        console.log(dateInput.toDateString());
     }
     // Dropdown
 
