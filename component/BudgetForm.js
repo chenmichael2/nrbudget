@@ -23,7 +23,7 @@ function BudgetForm() {
     }
 
     function categoryChange(e) {
-        console.log(e);
+        console.log(e.value);
         // this doesn't work
     }
 
