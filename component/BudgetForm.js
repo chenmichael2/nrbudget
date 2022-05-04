@@ -8,7 +8,7 @@ import { useState } from 'react';
 function BudgetForm() {
     // Date
     const [date, setDate] = useState(null);
-    const [description, setDescription] = useState('');
+    const [description, setDescription] = useState(null);
     const [category, setCategory] = useState(null);
     const [income, setIncome] = useState(null);
     const [debit, setDebit] = useState(null);
