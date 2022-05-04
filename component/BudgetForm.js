@@ -23,7 +23,7 @@ function BudgetForm() {
     }
 
     function categoryChange(e) {
-        setCategory(e.target.value);
+        setCategory(value);
         // this doesn't work
     }
 
