@@ -89,8 +89,8 @@ function BudgetForm() {
                                 className={styles.pickList}
                                 labelAlignment="left"
                                 required
-                                onChange={value => setState({ value })}
-                                value={state.value}
+                                onChange={value => setCategory({ value })}
+                                value={category}
                                 id="picklist-3"
                                 placeholder="Choose Building"
                                 enableSearch
