@@ -46,7 +46,7 @@ function BudgetForm() {
         let incomeInput = income;
         let debitInput = debit;
         console.log(dateInput, descriptionInput, categoryInput, incomeInput, debitInput);
-        // need to check if required
+        // need to check if required fields
     }
     // Dropdown
 
