@@ -23,7 +23,6 @@ function BudgetForm() {
     }
 
     function categoryChange(e) {
-        e.preventDefault();
         setCategory(e.target.value);
         // this doesn't work
     }
