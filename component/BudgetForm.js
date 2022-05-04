@@ -89,6 +89,7 @@ function BudgetForm() {
                                 className={styles.pickList}
                                 labelAlignment="left"
                                 required
+                                value={category}
                                 onChange={categoryChange}
                                 id="picklist-3"
                                 placeholder="Choose Building"
