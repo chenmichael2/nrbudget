@@ -22,10 +22,10 @@ function BudgetForm() {
         setDescription(e.target.value);
     }
 
-    // function categoryChange(e) {
-    //     // setCategory(e.target.value);
-    //     // this doesn't work
-    // }
+    function categoryChange(e) {
+        setCategory(e.target.value);
+        // this doesn't work
+    }
 
     function incomeChange(e) {
         e.preventDefault();
