@@ -24,7 +24,6 @@ function BudgetForm() {
 
     function categoryChange(e) {
         console.log(e.value);
-        setCategory(e.value);
         // this doesn't work
     }
 
