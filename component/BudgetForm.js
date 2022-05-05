@@ -51,7 +51,8 @@ function BudgetForm() {
         const month = dateInput[1];
         const monthArr = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
         console.log(monthArr.indexOf(month));
-        console.log(parseInt(dateInput[2]))
+        console.log(parseInt(dateInput[2]));
+        console.log(parseInt(dateInput[3]))
         console.log(dateInput);
     }
     // Dropdown
