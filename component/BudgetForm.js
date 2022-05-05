@@ -39,10 +39,7 @@ function BudgetForm() {
     }
 
     function onSubmit() {
-        console.log("submit button");
         let dateInput = date.toDateString().split(' ');
-        
-        console.log(dateInput, descriptionInput, categoryInput, incomeInput, debitInput);
         // need to check if required fields are filled
         const dayOfWeek = dateInput[0];
         const month = dateInput[1];
@@ -59,7 +56,7 @@ function BudgetForm() {
         let debitInput = debit;
         let fullDate = monthNum + '/' + dateInput[2] + '/' + dateInput[3];
         //
-
+        console.log(dateInput, descriptionInput, categoryInput, incomeInput, debitInput);
     }
     // Dropdown
 
