@@ -54,10 +54,8 @@ function BudgetForm() {
         if (monthNum < 10) {
             monthNum = '0' + monthNum;
         }
-        console.log(monthNum);
-        console.log(dateInput[2]);
+        let day = dateInput[2];
         let year = dateInput[3];
-        console.log(year);
         let fullDate = monthArr.indexOf(month) + 
         console.log(dateInput);
     }
