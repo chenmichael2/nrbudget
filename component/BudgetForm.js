@@ -51,7 +51,6 @@ function BudgetForm() {
         if (monthNum < 10) {
             monthNum = '0' + monthNum;
         }
-        
         console.log(fullDate);
         // Variables that need 
         let descriptionInput = description;
@@ -59,6 +58,7 @@ function BudgetForm() {
         let incomeInput = income;
         let debitInput = debit;
         let fullDate = monthNum + '/' + dateInput[2] + '/' + dateInput[3];
+        //
 
     }
     // Dropdown
