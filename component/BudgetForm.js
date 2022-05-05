@@ -47,7 +47,7 @@ function BudgetForm() {
         let debitInput = debit;
         console.log(dateInput, descriptionInput, categoryInput, incomeInput, debitInput);
         // need to check if required fields are filled
-        const dayOfWeek = dateInput[0]
+        const dayOfWeek = dateInput[0];
         console.log(dateInput);
     }
     // Dropdown
