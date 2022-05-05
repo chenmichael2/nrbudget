@@ -54,7 +54,7 @@ function BudgetForm() {
         console.log(dateInput[2]);
         let year = dateInput[3];
         console.log(year);
-        let date = monthArr.indexOf(month) + 
+        let fullDate = monthArr.indexOf(month) + 
         console.log(dateInput);
     }
     // Dropdown
