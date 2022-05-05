@@ -49,7 +49,7 @@ function BudgetForm() {
         // need to check if required fields are filled
         const dayOfWeek = dateInput[0];
         const month = dateInput[1];
-        console.log(date.getDate());
+        const monthArr = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
         console.log(dateInput);
     }
     // Dropdown
