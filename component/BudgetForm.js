@@ -40,7 +40,7 @@ function BudgetForm() {
 
     function onSubmit() {
         console.log("submit button");
-        let dateInput = date.toDateString();
+        let dateInput = date.toDateString().split(' ');
         let descriptionInput = description;
         let categoryInput = category;
         let incomeInput = income;
