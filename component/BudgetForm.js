@@ -50,8 +50,11 @@ function BudgetForm() {
         const dayOfWeek = dateInput[0];
         const month = dateInput[1];
         const monthArr = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-        let monthNum = monthArr.indexOf(month)
-        console.log(monthArr.indexOf(month));
+        let monthNum = monthArr.indexOf(month);
+        if (monthNum < 10) {
+            monthNum = '0' + monthNum;
+        }
+        console.log(monthNum);
         console.log(dateInput[2]);
         let year = dateInput[3];
         console.log(year);
