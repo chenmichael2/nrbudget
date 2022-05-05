@@ -48,7 +48,6 @@ function BudgetForm() {
         if (monthNum < 10) {
             monthNum = '0' + monthNum;
         }
-        console.log(fullDate);
         // Variables that need 
         let descriptionInput = description;
         let categoryInput = category;
@@ -108,7 +107,8 @@ function BudgetForm() {
                             >
                                 <Option className={styles.optionForm} name="form 1" label="Create Category" icon={<AddCircleIcon className={styles.circleIcon} />} />
                                 <Option name="header" label="Pick Category" variant="header" />
-                                <Option value="income" name="option 3" label="Income" />
+                                <Option value="Income" name="income" label="Income" />
+                                <Option value="Etc" name="etc" label="Etc" />
                                 <Option name="thing" label="No Categories" disabled />
                             </Picklist>
                         </div>
