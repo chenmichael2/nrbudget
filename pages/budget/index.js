@@ -2,6 +2,7 @@ import styles from "../../styles/BudgetPage.module.css";
 import React, { useState } from "react";
 import BudgetTable from "../../component/BudgetTable";
 import BudgetForm from "../../component/BudgetForm";
+import TopData from "../../component/TopData";
 
 function Budget() {
     return (
