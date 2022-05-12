@@ -10,6 +10,7 @@ function Budget() {
             <div className={styles.mainContainer}>
                 <div className={styles.budgetContainer}>
                     <h1>Welcome User!</h1>
+                    {/* Put the data here */}
                     <BudgetTable />
                 </div>
                 <div className={styles.infoContainer}>
