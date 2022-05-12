@@ -2,9 +2,9 @@ import Paper from '@mui/material/Paper';
 
 function TopData() {
     return (
-        <div>
-
-        </div>
+        <Paper>
+            <h1>Hello</h1>
+        </Paper>
     )
 }
 
