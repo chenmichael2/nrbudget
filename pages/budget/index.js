@@ -12,6 +12,7 @@ function Budget() {
                 <div className={styles.budgetContainer}>
                     <h1>Welcome User!</h1>
                     {/* Put the data here */}
+                    <TopData />
                     <BudgetTable />
                 </div>
                 <div className={styles.infoContainer}>
