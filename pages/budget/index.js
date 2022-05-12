@@ -10,7 +10,6 @@ function Budget() {
             <div className={styles.mainContainer}>
                 <div className={styles.budgetContainer}>
                     <h1>Welcome User!</h1>
-                    {/* Where the table is at */}
                     <BudgetTable />
                 </div>
                 <div className={styles.infoContainer}>
@@ -18,7 +17,6 @@ function Budget() {
                         <h1>Info Section</h1>
                     </div>
                     <div>
-                        {/* form */}
                         <BudgetForm />
                     </div>
                 </div>
