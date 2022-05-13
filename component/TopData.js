@@ -5,7 +5,7 @@ function TopData() {
         <Paper>
             <h1>Hello</h1>
             <h1>Total Balance</h1>
-            <h1></h1>
+            <h1>Total Debt</h1>
         </Paper>
     )
 }
