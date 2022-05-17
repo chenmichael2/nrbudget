@@ -3,7 +3,7 @@ import styles from '../styles/TopData.module.css';
 
 function TopData() {
     return (
-        <Paper>
+        <Paper className={}>
             <div className={styles.topDataContainer}>
                 <h1>Total Balance</h1>
                 <h1>Total Debt</h1>
