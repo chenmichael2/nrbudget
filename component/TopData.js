@@ -1,5 +1,5 @@
 import Paper from '@mui/material/Paper';
-import styles from '../styles/TopData.module.css'
+import styles from '../styles/TopData.module.css';
 
 function TopData() {
     return (
