@@ -5,7 +5,9 @@ function TopData() {
     return (
         <Paper className={styles.paper}>
             <div className={styles.topDataContainer}>
-                <h1>Total Balance</h1>
+                <div>
+                    <h1>Total Balance</h1>
+                </div>
                 <h1>Total Debt</h1>
                 <h1>Total Income</h1>
             </div>
