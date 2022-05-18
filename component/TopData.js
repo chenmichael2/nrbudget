@@ -7,15 +7,15 @@ function TopData() {
             <div className={styles.topDataContainer}>
                 <div className={styles.data}>
                     <p className={styles.dataTitle}>Total Balance</p>
-                    <p>$0.00</p>
+                    <p className={styles.dataType}>$0.00</p>
                 </div>
                 <div className={styles.data}>
                     <p className={styles.dataTitle}>Total Debt</p>
-                    <p>$0.00</p>
+                    <p className={styles.dataType}>$0.00</p>
                 </div>
                 <div className={styles.data}>
                     <p className={styles.dataTitle}>Total Income</p>
-                    <p>$0.00</p>
+                    <p className={styles.dataType}>$0.00</p>
                 </div>
             </div>
         </Paper>
