@@ -11,6 +11,7 @@ function TopData() {
                 </div>
                 <div>
                     <h1>Total Debt</h1>
+                    <h1></h1>
                 </div>
                 <div>
                     <h1>Total Income</h1>
