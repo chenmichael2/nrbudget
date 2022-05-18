@@ -6,15 +6,15 @@ function TopData() {
         <Paper className={styles.paper}>
             <div className={styles.topDataContainer}>
                 <div className={styles.data}>
-                    <p>Total Balance</p>
+                    <p className={styles.dataTitle}>Total Balance</p>
                     <p>$0.00</p>
                 </div>
                 <div className={styles.data}>
-                    <p>Total Debt</p>
+                    <p className={styles.dataTitle}>Total Debt</p>
                     <p>$0.00</p>
                 </div>
                 <div className={styles.data}>
-                    <p>Total Income</p>
+                    <p className={styles.dataTitle}>Total Income</p>
                     <p>$0.00</p>
                 </div>
             </div>
