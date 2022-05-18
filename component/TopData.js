@@ -13,8 +13,8 @@ function TopData() {
                 </div>
                 <div>
 
-                </div>
                 <h1>Total Income</h1>
+                </div>
             </div>
         </Paper>
     )
