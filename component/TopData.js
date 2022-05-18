@@ -7,6 +7,7 @@ function TopData() {
             <div className={styles.topDataContainer}>
                 <div>
                     <h1>Total Balance</h1>
+                    <h1></h1>
                 </div>
                 <div>
                     <h1>Total Debt</h1>
