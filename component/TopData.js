@@ -15,7 +15,7 @@ function TopData() {
                 </div>
                 <div>
                     <h1>Total Income</h1>
-                    <h1></h1>
+                    <h1>$0.00</h1>
                 </div>
             </div>
         </Paper>
