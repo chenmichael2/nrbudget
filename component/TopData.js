@@ -9,7 +9,7 @@ function TopData() {
                     <h1>Total Balance</h1>
                     <h1>$0.00</h1>
                 </div>
-                <div className={}>
+                <div className={styles.data}>
                     <h1>Total Debt</h1>
                     <h1>$0.00</h1>
                 </div>
