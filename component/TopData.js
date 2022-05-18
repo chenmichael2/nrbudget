@@ -13,7 +13,7 @@ function TopData() {
                     <h1>Total Debt</h1>
                     <h1>$0.00</h1>
                 </div>
-                <div>
+                <div className={}>
                     <h1>Total Income</h1>
                     <h1>$0.00</h1>
                 </div>
