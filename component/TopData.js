@@ -15,7 +15,7 @@ function TopData() {
                 </div>
                 <div className={styles.data}>
                     <p className={styles.dataTitle}>Total Income</p>
-                    <p className={styles.dataType}>$0.00</p>
+                    <p className={styles.dataType} id={styles.income}>$0.00</p>
                 </div>
             </div>
         </Paper>
