@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Input } from 'react-rainbow-components';
 
 function Login() {
     return (
