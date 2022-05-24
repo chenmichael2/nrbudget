@@ -1,7 +1,7 @@
 import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import { DatePicker, Input, Picklist, Option, Modal, GlobalHeader } from "react-rainbow-components"; //react rainbow
-import styles from '../styles/BudgetForm.module.css';
+import styles from '../styles/Budget/BudgetForm.module.css';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
 import { useState } from 'react';
 

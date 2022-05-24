@@ -1,4 +1,4 @@
-import styles from "../../styles/BudgetPage.module.css";
+import styles from "../../styles/Budget/BudgetPage.module.css";
 import React, { useState } from "react";
 import BudgetTable from "../../component/BudgetTable";
 import BudgetForm from "../../component/BudgetForm";

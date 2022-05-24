@@ -1,4 +1,4 @@
-import styles from "../styles/BudgetTable.module.css";
+import styles from "../styles/Budget/BudgetTable.module.css";
 import { Table } from '@mui/material';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
