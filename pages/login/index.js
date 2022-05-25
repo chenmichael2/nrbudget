@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Input } from 'react-rainbow-components';
-import styles;
+import styles from '../../styles/login.module.css';
 
 function Login() {
     return (
