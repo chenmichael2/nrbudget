@@ -10,7 +10,7 @@ function Login() {
                 <label>Username: </label>
                 <Input 
                     label="Username"
-                    className={}
+                    className={styles.usernameInput}
                 />
                 <br />
                 <label>Password: </label>
