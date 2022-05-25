@@ -9,7 +9,7 @@ function Login() {
                 <label>Username: </label>
                 <Input 
                     label="Username"
-                    className=""
+                    className={}
                 />
                 <br />
                 <label>Password: </label>
