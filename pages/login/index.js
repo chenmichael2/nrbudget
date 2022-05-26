@@ -10,12 +10,14 @@ function Login() {
                 <Input 
                     label="Username"
                     id="username"
+                    name="description"
                     className={styles.input}
                 />
                 <br />
                 <Input 
                     label="Password"
                     id="password"
+                    name="description"
                     className={styles.input}
                 />
             </form>
