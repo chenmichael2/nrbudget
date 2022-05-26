@@ -15,6 +15,7 @@ function Login() {
                 <br />
                 <Input 
                     label="Password"
+                    id="password"
                     className={styles.input}
                 />
             </form>
