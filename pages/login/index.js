@@ -11,6 +11,7 @@ function Login() {
                     label="Username"
                     id="username"
                     name="username"
+                    required
                     className={styles.input}
                 />
                 <br />
@@ -18,6 +19,7 @@ function Login() {
                     label="Password"
                     id="password"
                     name="password"
+                    required
                     className={styles.input}
                 />
             </form>
