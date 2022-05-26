@@ -9,6 +9,7 @@ function Login() {
             <form>
                 <Input 
                     label="Username"
+                    id="username"
                     className={styles.input}
                 />
                 <br />
