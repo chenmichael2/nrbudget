@@ -11,6 +11,7 @@ function Login() {
                     label="Username"
                     id="username"
                     name="username"
+                    type="text"
                     required
                     placeholder="Username"
                     className={styles.input}
