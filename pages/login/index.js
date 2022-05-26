@@ -21,6 +21,7 @@ function Login() {
                     label="Password"
                     id="password"
                     name="password"
+                    type="password"
                     required
                     className={styles.input}
                 />
