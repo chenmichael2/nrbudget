@@ -26,7 +26,7 @@ function Login() {
                     className={styles.input}
                 />
             </form>
-            <Link href="/"><a><h1>Go Home</h1></a></Link>
+            <Link href="/"><h1><a>Go Home</a></h1></Link>
         </div>
     )
 }
