@@ -10,7 +10,7 @@ function Login() {
                 <Input 
                     label="Username"
                     id="username"
-                    name="description"
+                    name="username"
                     className={styles.input}
                 />
                 <br />
