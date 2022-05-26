@@ -17,7 +17,7 @@ function Login() {
                 <Input 
                     label="Password"
                     id="password"
-                    name="description"
+                    name="password"
                     className={styles.input}
                 />
             </form>
