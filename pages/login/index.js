@@ -20,7 +20,6 @@ function Login() {
                     name="password"
                     type="password"
                     placeholder="Password"
-                    required
                     className={styles.input}
                 />
             </form>
