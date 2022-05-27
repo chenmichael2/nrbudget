@@ -8,7 +8,6 @@ function Login() {
             <h1>Login Page</h1>
             <form>
                 <Input 
-                    label="Username"
                     id="username"
                     name="username"
                     type="text"
