@@ -18,7 +18,6 @@ function Login() {
                 />
                 <br />
                 <Input 
-                    label="Password"
                     id="password"
                     name="password"
                     type="password"
