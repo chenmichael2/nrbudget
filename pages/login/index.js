@@ -22,7 +22,7 @@ function Login() {
                     id="password"
                     name="password"
                     type="password"
-                    placeholder=""
+                    placeholder="Password"
                     required
                     className={styles.input}
                 />
