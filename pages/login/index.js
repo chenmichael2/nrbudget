@@ -22,8 +22,11 @@ function Login() {
                     placeholder="Password"
                     className={styles.input}
                 />
-                <Button />
-            </form>
+                <Button onClick={() => {
+                        onSubmit();
+                    }} variant="contained">Budget
+                </Button>
+            </form> 
         </div>
     )
 }
