@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Input } from 'react-rainbow-components';
+import { Input, Button } from 'react-rainbow-components';
 import styles from '../../styles/login.module.css';
 
 function Login() {
@@ -22,6 +22,7 @@ function Login() {
                     placeholder="Password"
                     className={styles.input}
                 />
+                <Button />
             </form>
         </div>
     )
