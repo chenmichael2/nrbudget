@@ -23,7 +23,6 @@ function Login() {
                     className={styles.input}
                 />
             </form>
-            <Link href="/"><h1><a className={styles.goHomeLink}>Go Home</a></h1></Link>
         </div>
     )
 }
