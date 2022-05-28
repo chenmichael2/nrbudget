@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Input, Button } from 'react-rainbow-components';
+import { Input } from 'react-rainbow-components';
+import Button from '@mui/material/Button';
 import styles from '../../styles/login.module.css';
 
 function Login() {
@@ -22,10 +23,14 @@ function Login() {
                     placeholder="Password"
                     className={styles.input}
                 />
-                <Button onClick={() => {
+                <Button 
+                    onClick={() => {
                         onSubmit();
-                    }} variant="contained">Budget
-                </Button>
+                    }} 
+                    variant="contained"
+                    className={styles.loginButton}
+                    label="Login"
+                />
             </form> 
         </div>
     )
