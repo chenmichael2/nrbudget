@@ -7,11 +7,11 @@ import { useState } from 'react';
 
 function BudgetForm() {
     // Date
-    const [date, setDate] = useState(null);
-    const [description, setDescription] = useState(null);
-    const [category, setCategory] = useState(null);
-    const [income, setIncome] = useState(null);
-    const [debit, setDebit] = useState(null);
+    const [date, setDate] = useState("");
+    const [description, setDescription] = useState(undefined);
+    const [category, setCategory] = useState(undefined);
+    const [income, setIncome] = useState(undefined);
+    const [debit, setDebit] = useState(undefined);
 
     function onChange(date) {
         setDate(date);
@@ -56,6 +56,11 @@ function BudgetForm() {
         let fullDate = monthNum + '/' + dateInput[2] + '/' + dateInput[3];
         //
         console.log(dateInput, descriptionInput, categoryInput, incomeInput, debitInput);
+
+        // display data on page
+
+        // clear the form
+        
     }
     // Dropdown
 

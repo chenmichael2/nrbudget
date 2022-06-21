@@ -30,7 +30,7 @@ function Login() {
                     variant="contained"
                     className={styles.loginButton}
                     label="Login"
-                />
+                >Login</Button>
             </form> 
         </div>
     )
