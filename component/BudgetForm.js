@@ -39,6 +39,7 @@ function BudgetForm() {
     }
 
     function onSubmit() {
+        
         let dateInput = date
         if (dateInput != "") {
             dateInput = date.toDateString().split(' ');
@@ -52,7 +53,7 @@ function BudgetForm() {
             }
             let fullDate = monthNum + '/' + dateInput[2] + '/' + dateInput[3];
         }
-        
+
         // Variables that need 
         let descriptionInput = description;
         let categoryInput = category;
@@ -63,7 +64,7 @@ function BudgetForm() {
         console.log(dateInput, descriptionInput, categoryInput, incomeInput, debitInput);
 
         // display data on page
-
+        
         // clear the form
         setDate("");
         setDescription(undefined);
