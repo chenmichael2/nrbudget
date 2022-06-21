@@ -39,28 +39,37 @@ function BudgetForm() {
     }
 
     function onSubmit() {
-        let dateInput = date.toDateString().split(' ');
-        // need to check if required fields are filled
-        const dayOfWeek = dateInput[0];
-        const month = dateInput[1];
-        const monthArr = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-        let monthNum = monthArr.indexOf(month);
-        if (monthNum < 10) {
-            monthNum = '0' + monthNum;
+        let dateInput = date
+        if (dateInput != "") {
+            dateInput = date.toDateString().split(' ');
+            // need to check if required fields are filled
+            const dayOfWeek = dateInput[0];
+            const month = dateInput[1];
+            const monthArr = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+            let monthNum = monthArr.indexOf(month);
+            if (monthNum < 10) {
+                monthNum = '0' + monthNum;
+            }
+            let fullDate = monthNum + '/' + dateInput[2] + '/' + dateInput[3];
         }
+        
         // Variables that need 
         let descriptionInput = description;
         let categoryInput = category;
         let incomeInput = income;
         let debitInput = debit;
-        let fullDate = monthNum + '/' + dateInput[2] + '/' + dateInput[3];
+        
         //
         console.log(dateInput, descriptionInput, categoryInput, incomeInput, debitInput);
 
         // display data on page
 
         // clear the form
-        
+        setDate("");
+        setDescription(undefined);
+        setCategory(undefined);
+        setIncome(undefined);
+        setDebit(undefined);
     }
     // Dropdown
 
